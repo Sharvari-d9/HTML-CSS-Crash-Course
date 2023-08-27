@@ -2,6 +2,13 @@
 <html>
   <head>
     <title>HTML Crash Course</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sharvari Dongre" />
+    <meta
+      name="description"
+      content="This webpage aims to provide complete beginners information about HTML fundamentals "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <h1>Heading 1</h1>
@@ -12,50 +19,122 @@
     <h6>Heading 6</h6>
     <p>This is a paragraph</p>
     <p>
-      <strong>Lorem ipsum </strong> <em>dolor sit amet consectetur </em>adipisicing elit. Voluptas officiis
+      <strong>Lorem ipsum </strong>
+      <em>dolor sit amet consectetur </em>adipisicing elit. Voluptas officiis
       dolorum recusandae aperiam laudantium sequi ut nisi culpa itaque magnam
       asperiores inventore, mollitia, porro ullam quibusdam hic accusantium
       architecto maiores.
     </p>
-    <hr>
+    <hr />
     <p>
-      <sub>Lorem ipsum dolor si</sub> t <sup>amet consectetur adipisicing elit.</sup> Voluptas officiis
+      <sub>Lorem ipsum dolor si</sub> t
+      <sup>amet consectetur adipisicing elit.</sup> Voluptas officiis
       <br />
-      dolorum recusandae <del>aperiam laudantium sequi ut nisi culpa</del>  itaque magnam
+      dolorum recusandae
+      <del>aperiam laudantium sequi ut nisi culpa</del> itaque magnam
       <br />
-      <mark>asperiores inventore, </mark> mollitia, porro ullam <ins>quibusdam hic accusantium</ins>
-        <br />
-      <small>architecto maiores.</small> 
+      <mark>asperiores inventore, </mark> mollitia, porro ullam
+      <ins>quibusdam hic accusantium</ins>
+      <br />
+      <small>architecto maiores.</small>
     </p>
 
-    <div> Block 1</div>
-    <div> Block 2</div>
+    <div>Block 1</div>
+    <div>Block 2</div>
 
     <span> Inline 1</span>
     <span> Inline 2</span>
 
     <ul>
-        <li>Bread</li>
-        <li>Milk</li>
-        <li>Eggs</li>
+      <li>Bread</li>
+      <li>Milk</li>
+      <li>Eggs</li>
     </ul>
 
     <ol>
-        <li>Reach point A</li>
-        <li>Turn left to reach point B</li>
-        <li>Take next right to reach C</li>
+      <li>Reach point A</li>
+      <li>Turn left to reach point B</li>
+      <li>Take next right to reach C</li>
     </ol>
 
     <dl>
-        <dt>Ice Cream</dt>
-        <dd>A soft Sweet frozen dessert</dd>
-        <dt>Tea</dt>
-        <dd>A hot Drink</dd>
+      <dt>Ice Cream</dt>
+      <dd>A soft Sweet frozen dessert</dd>
+      <dt>Tea</dt>
+      <dd>A hot Drink</dd>
     </dl>
 
-    <img src ='GitHub-Mark.png' width="200" height="200" alt= "Github logo" />
+    <img src="GitHub-Mark.png" width="200" height="200" alt="Github logo" />
 
-    <a href="https://www.google.com">Google</a>
+    <a href="https://www.google.com" target="_blank">Google</a>
     <a href="contact.html">Contact</a>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Heading 1</th>
+          <th>Heading 2</th>
+          <th>Heading 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+        </tr>
+        <tr>
+          <td>Data 4</td>
+          <td>Data 5</td>
+          <td>Data 6</td>
+        </tr>
+        <tr>
+          <td>Data 7</td>
+          <td>Data 8</td>
+          <td>Data 9</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form>
+      <label for="username">Username</label>
+      <input type="text" id="username" /><br /><br />
+
+      <label for="about">About You</label><br />
+      <textarea id="about"></textarea><br /><br /><br />
+
+      <label for="country">Country</label><br /><br />
+      <select id="country">
+        <option value="india">India</option>
+        <option value="singapore">Singapore</option>
+        <option value="vietnam">Vietnam</option>
+      </select>
+
+      <label>Job Type</label><br /><br />
+      <input type="radio" name="jobtype" value="parttime" id="parttime" />
+      <label for="parttime">Part time</label>
+      <br /><br />
+      <input type="radio" name="jobtype" value="fulltime" id="fulltime" />
+      <label for="fulltime">Full time</label><br /><br />
+
+      <label>Job Type</label><br /><br />
+      <input
+        type="checkbox"
+        name="jobtypecb"
+        value="parttime"
+        id="parttimecb"
+      />
+      <label for="parttimecb">Part time</label>
+      <br /><br />
+      <input
+        type="checkbox"
+        name="jobtypecb"
+        value="fulltime"
+        id="fulltimecb"
+      />
+      <label for="fulltimecb">Full time</label><br /><br />
+
+      <button>Submit</button>
+    </form>
   </body>
 </html>

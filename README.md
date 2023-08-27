@@ -17,3 +17,9 @@ block leavel and inline elements
 
 HTML attributes
 - provide additional details of the element
+
+forms 
+- Allows user to enter details
+
+Semantic HTML 
+- tags to tell the contents of the element
