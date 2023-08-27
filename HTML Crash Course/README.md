@@ -23,3 +23,17 @@ forms
 
 Semantic HTML 
 - tags to tell the contents of the element
+
+
+CSS Style ways
+- Inline sytle (not recommended)
+- internal style sheet (better than inline but still not recommnded as difficult to maintain)
+- external stylle sheet (most widely used)
+
+
+selector
+- selector is used to select element
+-- type selector for example h1
+-- universal selector starting with *
+-- by id by giving #<id>
+-- by class starting .<classname>    

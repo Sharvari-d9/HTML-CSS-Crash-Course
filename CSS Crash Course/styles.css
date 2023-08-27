@@ -1,0 +1,20 @@
+*{
+    color:blue
+}
+h1{
+    color: violet
+}
+p{
+    color:chocolate
+}
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+#Test{
+    color: cadetblue;
+}
