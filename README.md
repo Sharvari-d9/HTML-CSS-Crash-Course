@@ -14,3 +14,6 @@ HTML Element
 
 
 block leavel and inline elements
+
+HTML attributes
+- provide additional details of the element
