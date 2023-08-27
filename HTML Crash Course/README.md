@@ -33,7 +33,7 @@ CSS Style ways
 
 selector
 - selector is used to select element
--- type selector for example h1
--- universal selector starting with *
--- by id by giving #<id>
--- by class starting .<classname>    
+- type selector for example h1
+- universal selector starting with *
+- by id by giving #<id>
+- by class starting .<classname>    
