@@ -45,3 +45,80 @@ ul{
     padding: 0;
 }
 
+.box-model{
+    border: 1px solid red;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2{
+    color: gold
+}
+
+h2{
+    color: hotpink;
+}
+
+.sub-heading{
+    color: teal;
+}
+
+#our-h3{
+    color:crimson !important; 
+}
+
+h3{
+    color: coral;
+}
+
+.inheritance{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+th,td{
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 60pc;
+}
+
+td{
+    text-align: center;
+}
+
+.content-1{
+    border: 1px solid grey;
+    display: inline;
+}
+
+.content-2{
+    border: 1px solid cornflowerblue;
+    display: none;
+}
+
+.position-1{
+    border: 1px solid red;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+
+.position-2{
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container{
+    position: relative;
+    width: 200px;
+    height: 1000px;
+    border: 1px solid black;
+}
