@@ -13,7 +13,7 @@ HTML Element
 - Building block of HTML Document.
 
 
-block leavel and inline elements
+block level and inline elements
 
 HTML attributes
 - provide additional details of the element
